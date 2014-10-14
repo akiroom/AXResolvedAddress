@@ -1,0 +1,14 @@
+PODS:
+  - AXResolvedAddress (0.1.0)
+
+DEPENDENCIES:
+  - AXResolvedAddress (from `../`)
+
+EXTERNAL SOURCES:
+  AXResolvedAddress:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AXResolvedAddress: fc1033d6d02b6b3df8a64a6b4aa31c96fc4a39c6
+
+COCOAPODS: 0.34.2

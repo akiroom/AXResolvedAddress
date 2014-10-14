@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/AXResolvedAddress.svg?style=flat)](http://cocoadocs.org/docsets/AXResolvedAddress)
 [![Platform](https://img.shields.io/cocoapods/p/AXResolvedAddress.svg?style=flat)](http://cocoadocs.org/docsets/AXResolvedAddress)
 
+AXResolvedAddress is easy way to get NSNetService#addresses result.
+
+```
+NSNetService *netService;
+[AXResolvedAddress addressesWithNetServiceAddresses:netService.addresses];
+```
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -25,4 +30,3 @@ Hiroki Akiyama, aki-hiroki@nifty.com
 ## License
 
 AXResolvedAddress is available under the MIT license. See the LICENSE file for more info.
-

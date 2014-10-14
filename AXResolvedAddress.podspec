@@ -10,29 +10,26 @@
 Pod::Spec.new do |s|
   s.name             = "AXResolvedAddress"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AXResolvedAddress."
+  s.summary          = "AXResolvedAddress is easy way to get NSNetService#addresses result."
   s.description      = <<-DESC
-                       An optional longer description of AXResolvedAddress
+                       AXResolvedAddress is easy way to get NSNetService#addresses result.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       ```
+                       NSNetService *netService;
+                       [AXResolvedAddress addressesWithNetServiceAddresses:netService.addresses];
+                       ```
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AXResolvedAddress"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/akiroom/AXResolvedAddress"
   s.license          = 'MIT'
   s.author           = { "Hiroki Akiyama" => "aki-hiroki@nifty.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AXResolvedAddress.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/akiroom/AXResolvedAddress.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/akiroom'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'AXResolvedAddress' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.resource_bundles = {
+  #    'AXResolvedAddress' => ['Pod/Assets/*.png']
+  #  }
 end
