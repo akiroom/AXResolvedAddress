@@ -16,6 +16,13 @@ NSNetService *netService;
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Installation
+
+AXResolvedAddress is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+    pod "AXResolvedAddress"
+
 ## Example
 
 Get the list of http services.
@@ -77,13 +84,6 @@ IP v6
 3000
 IP v6
 ```
-
-## Installation
-
-AXResolvedAddress is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "AXResolvedAddress"
 
 ## Author
 
