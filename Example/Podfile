@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AXResolvedAddress', :exclusive => true do
+  pod "AXResolvedAddress", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "AXResolvedAddress", :path => "../"
+
+  
+end
