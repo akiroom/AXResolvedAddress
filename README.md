@@ -7,7 +7,7 @@
 
 AXResolvedAddress is easy way to get NSNetService#addresses result.
 
-```
+```objc
 NSNetService *netService;
 [AXResolvedAddress addressesWithNetServiceAddresses:netService.addresses];
 ```
@@ -27,8 +27,7 @@ it, simply add the following line to your Podfile:
 
 Get the list of http services.
 
-```
-
+```objc
 NSNetServiceBrowser *_netServiceBrowser;
 NSNetService *_netService;
 
